@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/style.css" />
   </head>
 
   <body>
@@ -26,10 +26,15 @@
       </div>
       <hr />
       -->
-      
+
       <!-- Title -->
       <div class="row">
-        <div class="col-md-12 jumbotron text-center">
+        <div
+          class="col-md-12 jumbotron jumbotron-image text-center text-white"
+          style="
+            background-image: url(https://ichef.bbci.co.uk/news/640/cpsprodpb/4FFF/production/_100697402_gettyimages-464726962-copy.jpg);
+          "
+        >
           <h1>Belly Button Biodiversity Dashboard</h1>
           <p>Use the interactive charts below to explore the dataset</p>
         </div>
@@ -41,10 +46,7 @@
           <div class="well">
             <h5>Test Subject ID No.:</h5>
             <!-- <select id="selDataset"></select> -->
-            <select
-              id="selDataset"
-              onchange="optionChanged()"
-            ></select>
+            <select id="selDataset" onchange="optionChanged()"></select>
           </div>
           <div class="panel panel-primary">
             <div class="panel-heading">

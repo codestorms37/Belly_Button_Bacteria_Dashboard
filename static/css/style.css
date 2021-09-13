@@ -1,4 +1,20 @@
 #myGauge {
-    margin: 0 auto;
-    height: 50 px;
+  margin: 0 auto;
+  height: 50 px;
 }
+
+.jumbotron-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(100%)
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-shadow: "black";
+}
+
+.jumbotron p {
+    color: #fff;
+  }
