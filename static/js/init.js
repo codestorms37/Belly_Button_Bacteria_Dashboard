@@ -3,11 +3,12 @@ function init() {
   var selector = d3.select("#selDataset");
   var showSelected = d3.select("#selShow").property("value");
   
-  console.log(showSelected);
+  // console.log(showSelected);
 
   // Use the list of sample names to populate the select options
   d3.json("static/samples.json").then((data) => {
-    console.log(data);
+    // console.log(data);
+    
     var sampleNames = data.names;
 
     sampleNames.forEach((sample) => {
