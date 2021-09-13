@@ -68,6 +68,7 @@ function buildCharts(sample, show_str) {
       title: "<b>Bacteria Cultures Per Sample</b>",
       xaxis: { title: "OTU id" },
       yaxis: { title: "Count values" },
+      height: 560,
     };
 
     // 3. Use Plotly to plot the data with the layout.
@@ -92,11 +93,11 @@ function buildCharts(sample, show_str) {
       {
         domain: { x: [0, 1], y: [0, 1] },
         value: wfreq,
-        title: { text: '<b>Belly Button Washing Frequency</b><br><i>Scrubs per week</i>' },
+        title: { text: '<b>Belly Button</b><br><b>Washing Frequency</b><br><i>Scrubs per week</i><br>' },
         type: "indicator",
         // mode: "gauge+number+delta",
         mode: "gauge+number",
-        // delta: { reference: 300 },
+        // delta: { reference: 2 },
         gauge: {
           axis: { range: [null, 10] },
           bar: { color: "black"},
@@ -122,7 +123,7 @@ function buildCharts(sample, show_str) {
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
       // width: 600,
-      height: 600,
+      height: 560,
         margin: { t: 0, b: 0 } 
     };
 

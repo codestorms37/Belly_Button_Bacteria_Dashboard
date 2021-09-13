@@ -13,8 +13,10 @@
 .jumbotron h1 {
   color: #fff;
   text-shadow: "black";
+  font-family: "Times New Roman", Times, serif;
 }
 
 .jumbotron p {
     color: #fff;
+    font-family: "Times New Roman", Times, serif;
   }
